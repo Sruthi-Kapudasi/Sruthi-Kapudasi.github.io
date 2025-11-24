@@ -1144,3 +1144,15 @@ textarea.contact-input {
   .footer-list { margin-inline: 0; }
 
 }
+/* Capstone card specific styling */
+.portfolio-list > li:last-child .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.portfolio-list > li:last-child .btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
