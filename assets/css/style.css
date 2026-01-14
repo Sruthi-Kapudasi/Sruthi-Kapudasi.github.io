@@ -842,15 +842,13 @@ textarea.contact-input {
 
 }
 
-
-
-
-/* Capstone card specific styling */
+/* Capstone card specific styling - override even child alignment */
 .portfolio-list > li:last-child .card-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-inline-start: 0 !important;  /* Add this line */
+  margin-inline-start: 0;
+  margin-left: 0;
 }
 
 .portfolio-list > li:last-child .btn-link {
