@@ -845,7 +845,19 @@ textarea.contact-input {
 
 
 
+/* Capstone card specific styling */
+.portfolio-list > li:last-child .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-inline-start: 0 !important;  /* Add this line */
+}
 
+.portfolio-list > li:last-child .btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
 /**
  * responsive for larger than 992px screen
  */
