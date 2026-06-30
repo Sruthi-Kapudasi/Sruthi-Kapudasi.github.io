@@ -1189,7 +1189,18 @@ textarea.contact-input {
 }
 
 .portfolio-card .btn-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
+  font-size: var(--fs-6);
+  text-transform: uppercase;
+  color: #111;
+}
+
+.portfolio-card .btn-link span {
+  color: #111;
+}
+
+.portfolio-card .btn-link ion-icon {
+  color: var(--orange-soda);
 }
