@@ -1166,29 +1166,29 @@ textarea.contact-input {
   align-items: center;
   gap: 5px;
 }
-/* ===== Portfolio Text Box ===== */
+/* ===== Portfolio Text Box (ALL PROJECTS) ===== */
 
-.text-box {
+.portfolio-card .card-content {
   background: rgba(255, 255, 255, 0.92);
-  padding: 22px 28px;
+  padding: 24px 28px;
   border-radius: 14px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
   display: inline-block;
   max-width: 520px;
 }
 
-.text-box .card-subtitle {
-  color: var(--orange-soda) !important;
+.portfolio-card .card-subtitle {
+  color: var(--orange-soda);
   margin-bottom: 10px;
 }
 
-.text-box .card-title {
-  color: #111 !important;
+.portfolio-card .card-title {
+  color: #111;
   line-height: 1.15;
   margin-bottom: 22px;
 }
 
-.text-box .btn-link {
+.portfolio-card .btn-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
